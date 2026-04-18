@@ -35,7 +35,7 @@ public class ResearchJob {
     @Column(columnDefinition = "text")
     private String finalReport;
 
-    private Integer totalTokenUsed;
+    private Integer totalTokensUsed;
 
     @CreationTimestamp
     private Instant createdAt;
